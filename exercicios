@@ -1,0 +1,65 @@
+# Exercício 1
+numerodigitado = int(input('Digite um número: '))
+if numerodigitado > 0:
+    print('O número é positivo')
+elif numerodigitado < 0:
+    print('O número é negativo')
+else:
+    print('O número é 0')
+
+# Exercício 2
+idade = int(input('Qual é a sua idade?'))
+if idade > 16:
+    print('Você é eligível para votar.')
+else:
+    print('Você ainda não pode votar.')
+
+# Exercício 2
+    import random
+parimpar = random.randint(0,10)
+if parimpar % 2 != 0:
+    print('O número é impar')
+else:
+    print('O número é par')
+
+# Exercício 4
+triangulo = []
+triangulo.append(float(input('Digite a medida do primeiro lado do triângulo: ')))
+triangulo.append(float(input('Digite a medida do segundo lado do triãngulo: ')))
+triangulo.append(float(input('Digite a medida do terceiro lado do triângulo: ')))
+print(triangulo)
+if triangulo[0] == triangulo[2] and triangulo[1] == triangulo[2]:
+    print('O triângulo é equilátero.')
+elif triangulo[0] != triangulo[1] and triangulo[0] != triangulo[2] and triangulo[1] != triangulo[2]
+    print('O triangulo é escaleno')
+elif triangulo[0] != triangulo[2] and triangulo[1] != triangulo[2]:
+    print('O triangulo é isósceles.')
+elif triangulo[1] != triangulo[0] and triangulo[2] != triangulo[2]:
+    print('O triangulo é isósceles.')
+elif triangulo[0] != triangulo[1] and triangulo[2] != triangulo[1]:
+    print('O triangulo é isósceles.')
+
+# Exercicio 5
+multiplo57 = int(input('Digite um número: '))
+if multiplo56 % 5 == 0 and multiplo57 % 7 = 0:
+    print('O número é multiplo de 5 e 7.')
+else: 
+    print('O número não é múltiplo de 5 e 7.')
+    
+# Exercicio 6
+numeromaior10 = int(input('Digite um número: '))
+if numeromaior10 > 10:
+    print('O número é positivo e maior que 10')
+elif numeromaior10 > 0:
+    print('O número não é maior que 10')
+else:
+    print('O número não é positivo')
+
+# Exercicio 7
+numero35 = int(input('Digite um número: '))
+if numero35 % 3 == 0:
+    print('O número é divisível por 3 ou 5.')
+elif numero35 % 5 == 0:
+    print('O número é divisível por 3 ou 5.')
+else:
+    print('O número não é divisível por 3 ou 5.')
